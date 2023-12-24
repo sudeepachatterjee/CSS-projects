@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #333;
+}
+
+.hero p {
+  color: #555;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #ffcc00;
+}
+
+.features {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.features h2 {
+  color: #333;
+}
+
+.feature {
+  margin-top: 40px;
+}
+
+.feature h3 {
+  color: #333;
+}
+
+.cta {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  color: #fff;
+}
+
+.cta p {
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
